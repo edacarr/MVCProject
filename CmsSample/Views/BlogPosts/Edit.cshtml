@@ -1,0 +1,47 @@
+﻿@model CmsSample.Models.BlogPost
+@{
+    ViewData["Title"] = "Blog Yazısı Düzenle";
+}
+
+<h2>Blog Yazısı Düzenle</h2>
+
+<form asp-action="Edit" method="post" enctype="multipart/form-data">
+    <input asp-for="Id" type="hidden" />
+    <input asp-for="AuthorId" type="hidden" />
+
+    <div class="mb-3">
+        <label asp-for="Slug" class="form-label"></label>
+        <input asp-for="Slug" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Title" class="form-label"></label>
+        <input asp-for="Title" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Excerpt" class="form-label"></label>
+        <textarea asp-for="Excerpt" rows="3" class="form-control"></textarea>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="HtmlBody" class="form-label"></label>
+        <textarea asp-for="HtmlBody" rows="8" class="form-control"></textarea>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Mevcut Kapak</label><br />
+        @if (!string.IsNullOrEmpty(Model.CoverImageUrl))
+        {
+            <img src="@Model.CoverImageUrl" style="max-width:160px;" />
+        }
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Yeni Kapak (değiştirmek isterseniz)</label>
+        <input type="file" name="file" class="form-control" />
+    </div>
+
+    <button class="btn btn-primary">Kaydet</button>
+    <a asp-action="Index" class="btn btn-secondary">İptal</a>
+</form>

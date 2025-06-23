@@ -1,0 +1,51 @@
+@model IEnumerable<CmsSample.Models.BlogPost>
+@using System.Security.Claims
+
+@{
+    ViewData["Title"] = "Blog Yazýlarý";
+
+    /* Aktif kullanýcýnýn Identity Id’si  */
+    var currentUserId = User.FindFirstValue(ClaimTypes.NameIdentifier) ?? "";
+}
+
+<h2 class="mb-4">@ViewData["Title"]</h2>
+
+@if (User.Identity?.IsAuthenticated == true)
+{
+    <a asp-action="Create" class="btn btn-primary mb-3">Yeni Yazý</a>
+}
+
+<table class="table table-bordered table-hover align-middle">
+    <thead class="table-light">
+        <tr>
+            <th style="width:60px">#</th>
+            <th>Baþlýk</th>
+            <th style="width:140px">Tarih</th>
+            <th>Ön Ýzleme</th>
+            <th style="width:220px"></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var p in Model)
+        {
+            <tr>
+                <td>@p.Id</td>
+                <td>@p.Title</td>
+                <td>@p.PublishedOn:dd.MM.yyyy</td>
+                <td>@p.Excerpt</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@p.Id">Detay</a>
+
+                    @* ? Sadece yazarýna Düzenle / Sil linkleri *@
+                    @if (p.AuthorId == currentUserId)
+                    {
+                        <span class="mx-1">|</span>
+                        <a asp-action="Edit" asp-route-id="@p.Id">Düzenle</a>
+                        <span class="mx-1">|</span>
+                        <a asp-action="Delete" asp-route-id="@p.Id">Sil</a>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

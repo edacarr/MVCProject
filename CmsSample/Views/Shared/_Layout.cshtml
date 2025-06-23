@@ -1,0 +1,92 @@
+﻿@using Microsoft.AspNetCore.Mvc.TagHelpers
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - CmsSample</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@300;400;600&family=Permanent+Marker&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome (ikonlar) -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+          integrity="sha512-Ew4hX7aQ7zj3tJdNxI…"
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Tema / Bootstrap / site -->
+    <link rel="stylesheet" href="~/css/blog-theme.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/CmsSample.styles.css" asp-append-version="true" />
+</head>
+<body>
+
+    <!--------------------  NAVBAR  -------------------->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light border-bottom box-shadow mb-3"
+             style="background:#fff0;">
+            <div class="container">
+
+                <!-- Logo -->
+                <a class="navbar-brand fw-bold" style="color:var(--accent);"
+                   asp-controller="Home" asp-action="Index">CmsSample</a>
+
+                <!-- Mobil toggle -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#mainNav" aria-controls="mainNav"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Menü -->
+                <div class="collapse navbar-collapse" id="mainNav">
+
+                    <!-- Sol linkler -->
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="BlogPosts" asp-action="Index">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                        </li>
+                    </ul>
+
+                    <!-- Sağ: Login / Register  veya  Kullanıcı / Logout -->
+                    <ul class="navbar-nav ms-auto">
+                        @await Html.PartialAsync("_LoginPartial")
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--------------------  ANA İÇERİK  -------------------->
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <!--------------------  FOOTER  -------------------->
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; @DateTime.Now.Year – CmsSample –
+            <a asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+
+    <!--------------------  SCRIPTS  -------------------->
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

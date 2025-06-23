@@ -1,0 +1,37 @@
+@model IEnumerable<CmsSample.Models.SliderItem>
+@{
+    ViewData["Title"] = "Slider Items";
+}
+
+<h2>Slider Items</h2>
+
+<a asp-action="Create" class="btn btn-primary mb-3">Yeni Slider</a>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Caption</th>
+            <th>Görsel</th>
+            <th>Link</th>
+            <th>Sýra</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var s in Model)
+        {
+            <tr>
+                <td>@s.Id</td>
+                <td>@s.Caption</td>
+                <td><img src="@s.ImageUrl" style="max-width:120px;" /></td>
+                <td>@s.TargetUrl</td>
+                <td>@s.DisplayOrder</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@s.Id">Düzenle</a> |
+                    <a asp-action="Delete" asp-route-id="@s.Id">Sil</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

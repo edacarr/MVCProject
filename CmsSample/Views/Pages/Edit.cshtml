@@ -1,0 +1,32 @@
+﻿@*  Views/Pages/Edit.cshtml  *@
+@model CmsSample.Models.StaticPage
+@{
+    ViewData["Title"] = "Sayfa Düzenle";
+}
+
+<h2>Sayfa Düzenle</h2>
+
+<form asp-action="Edit" method="post">
+    @* gizli ID alanı *@
+    <input asp-for="Id" type="hidden" />
+
+    <div class="mb-3">
+        <label asp-for="Slug" class="form-label"></label>
+        <input asp-for="Slug" class="form-control" />
+        <span asp-validation-for="Slug" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Title" class="form-label"></label>
+        <input asp-for="Title" class="form-control" />
+        <span asp-validation-for="Title" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="HtmlBody" class="form-label"></label>
+        <textarea asp-for="HtmlBody" rows="8" class="form-control"></textarea>
+    </div>
+
+    <button class="btn btn-primary">Kaydet</button>
+    <a asp-action="Index" class="btn btn-secondary">İptal</a>
+</form>

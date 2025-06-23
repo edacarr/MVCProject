@@ -1,0 +1,24 @@
+@model IEnumerable<CmsSample.Models.StaticPage>
+
+<h2>Pages view works!</h2>
+<table class="table">
+  <thead>
+    <tr><th>ID</th><th>Slug</th><th>Title</th><th>Last Updated</th></tr>
+  </thead>
+  <tbody>
+  @foreach (var p in Model)
+  {
+      <tr>
+        <td>@p.Id</td>
+        <td>@p.Slug</td>
+        <td>@p.Title</td>
+        <td>@p.LastUpdated</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@p.Id">Düzenle</a> |
+                    <a asp-action="Delete" asp-route-id="@p.Id">Sil</a>
+                </td>
+
+      </tr>
+  }
+  </tbody>
+</table>

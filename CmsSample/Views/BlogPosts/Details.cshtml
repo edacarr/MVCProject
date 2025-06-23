@@ -1,0 +1,78 @@
+﻿@using System.Security.Claims
+@using Microsoft.AspNetCore.Identity
+@inject UserManager<IdentityUser> UserManager
+
+@model CmsSample.Models.BlogPost
+
+@{
+    ViewData["Title"] = Model.Title;
+
+    /* Controller’ın ViewBag.Comments gönderdiğini biliyoruz */
+    var comments = ViewBag.Comments as IEnumerable<CmsSample.Models.Comment>
+                   ?? Enumerable.Empty<CmsSample.Models.Comment>();
+
+    var currentUserId = User.FindFirstValue(ClaimTypes.NameIdentifier) ?? "";
+}
+
+<h2 class="mb-3">@Model.Title</h2>
+
+<p class="text-muted">
+    Yayın: @Model.PublishedOn:dd.MM.yyyy |
+    Yazar: @ViewBag.AuthorName
+</p>
+
+@if (!string.IsNullOrEmpty(Model.CoverImageUrl))
+{
+    <img src="@Model.CoverImageUrl" class="img-fluid rounded mb-4" alt="@Model.Title" />
+}
+
+@Html.Raw(Model.HtmlBody)
+
+<hr class="my-4" />
+<h4>Yorumlar</h4>
+@if (Model.AuthorId == currentUserId)
+{
+    <a asp-action="Edit"   asp-route-id="@Model.Id" class="btn btn-outline-secondary btn-sm">Düzenle</a>
+    <a asp-action="Delete" asp-route-id="@Model.Id" class="btn btn-outline-danger    btn-sm">Sil</a>
+}
+
+@if (comments.Any())
+{
+    <ul class="list-group mb-4">
+        @foreach (var c in comments)
+        {
+            var author = await UserManager.FindByIdAsync(c.AuthorId);
+            <li class="list-group-item">
+                <small class="text-muted">
+                    @author?.Email • @c.PostedOn:dd.MM.yyyy HH:mm
+                </small><br />
+                @c.Body
+            </li>
+        }
+    </ul>
+}
+else
+{
+    <p class="text-muted">Henüz yorum yok.</p>
+}
+
+@if (User.Identity?.IsAuthenticated == true)
+{
+    <form asp-action="AddComment" method="post" class="mt-4">
+        <input type="hidden" name="id" value="@Model.Id" />
+
+        <div class="mb-3">
+            <textarea name="body" rows="3" class="form-control"
+                  placeholder="Yorum yazınız"></textarea>
+        </div>
+
+        <button class="btn btn-primary">Gönder</button>
+    </form>
+}
+else
+{
+    <p class="mt-3">
+        Yorum eklemek için
+        <a asp-area="Identity" asp-page="/Account/Login">giriş yapın</a>.
+    </p>
+}

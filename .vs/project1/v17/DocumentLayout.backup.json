@@ -1,0 +1,394 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DTEDACAR\\source\\repos\\project1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{39A5B738-0143-9FEB-D7CE-1605D1D88158}|CmsSample\\CmsSample.csproj|c:\\users\\dtedacar\\source\\repos\\project1\\cmssample\\controllers\\blogpostscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39A5B738-0143-9FEB-D7CE-1605D1D88158}|CmsSample\\CmsSample.csproj|solutionrelative:cmssample\\controllers\\blogpostscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39A5B738-0143-9FEB-D7CE-1605D1D88158}|CmsSample\\CmsSample.csproj|c:\\users\\dtedacar\\source\\repos\\project1\\cmssample\\views\\blogposts\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{39A5B738-0143-9FEB-D7CE-1605D1D88158}|CmsSample\\CmsSample.csproj|solutionrelative:cmssample\\views\\blogposts\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39A5B738-0143-9FEB-D7CE-1605D1D88158}|CmsSample\\CmsSample.csproj|c:\\users\\dtedacar\\source\\repos\\project1\\cmssample\\views\\blogposts\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{39A5B738-0143-9FEB-D7CE-1605D1D88158}|CmsSample\\CmsSample.csproj|solutionrelative:cmssample\\views\\blogposts\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39A5B738-0143-9FEB-D7CE-1605D1D88158}|CmsSample\\CmsSample.csproj|c:\\users\\dtedacar\\source\\repos\\project1\\cmssample\\views\\blogposts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{39A5B738-0143-9FEB-D7CE-1605D1D88158}|CmsSample\\CmsSample.csproj|solutionrelative:cmssample\\views\\blogposts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39A5B738-0143-9FEB-D7CE-1605D1D88158}|CmsSample\\CmsSample.csproj|c:\\users\\dtedacar\\source\\repos\\project1\\cmssample\\wwwroot\\css\\blog-theme.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{39A5B738-0143-9FEB-D7CE-1605D1D88158}|CmsSample\\CmsSample.csproj|solutionrelative:cmssample\\wwwroot\\css\\blog-theme.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39A5B738-0143-9FEB-D7CE-1605D1D88158}|CmsSample\\CmsSample.csproj|c:\\users\\dtedacar\\source\\repos\\project1\\cmssample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39A5B738-0143-9FEB-D7CE-1605D1D88158}|CmsSample\\CmsSample.csproj|solutionrelative:cmssample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39A5B738-0143-9FEB-D7CE-1605D1D88158}|CmsSample\\CmsSample.csproj|c:\\users\\dtedacar\\source\\repos\\project1\\cmssample\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39A5B738-0143-9FEB-D7CE-1605D1D88158}|CmsSample\\CmsSample.csproj|solutionrelative:cmssample\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39A5B738-0143-9FEB-D7CE-1605D1D88158}|CmsSample\\CmsSample.csproj|c:\\users\\dtedacar\\source\\repos\\project1\\cmssample\\models\\blogpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39A5B738-0143-9FEB-D7CE-1605D1D88158}|CmsSample\\CmsSample.csproj|solutionrelative:cmssample\\models\\blogpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39A5B738-0143-9FEB-D7CE-1605D1D88158}|CmsSample\\CmsSample.csproj|c:\\users\\dtedacar\\source\\repos\\project1\\cmssample\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{39A5B738-0143-9FEB-D7CE-1605D1D88158}|CmsSample\\CmsSample.csproj|solutionrelative:cmssample\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39A5B738-0143-9FEB-D7CE-1605D1D88158}|CmsSample\\CmsSample.csproj|c:\\users\\dtedacar\\source\\repos\\project1\\cmssample\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{39A5B738-0143-9FEB-D7CE-1605D1D88158}|CmsSample\\CmsSample.csproj|solutionrelative:cmssample\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39A5B738-0143-9FEB-D7CE-1605D1D88158}|CmsSample\\CmsSample.csproj|c:\\users\\dtedacar\\source\\repos\\project1\\cmssample\\data\\oracleblogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39A5B738-0143-9FEB-D7CE-1605D1D88158}|CmsSample\\CmsSample.csproj|solutionrelative:cmssample\\data\\oracleblogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39A5B738-0143-9FEB-D7CE-1605D1D88158}|CmsSample\\CmsSample.csproj|c:\\users\\dtedacar\\source\\repos\\project1\\cmssample\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39A5B738-0143-9FEB-D7CE-1605D1D88158}|CmsSample\\CmsSample.csproj|solutionrelative:cmssample\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39A5B738-0143-9FEB-D7CE-1605D1D88158}|CmsSample\\CmsSample.csproj|c:\\users\\dtedacar\\source\\repos\\project1\\cmssample\\controllers\\slideritemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39A5B738-0143-9FEB-D7CE-1605D1D88158}|CmsSample\\CmsSample.csproj|solutionrelative:cmssample\\controllers\\slideritemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39A5B738-0143-9FEB-D7CE-1605D1D88158}|CmsSample\\CmsSample.csproj|c:\\users\\dtedacar\\source\\repos\\project1\\cmssample\\views\\blogposts\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{39A5B738-0143-9FEB-D7CE-1605D1D88158}|CmsSample\\CmsSample.csproj|solutionrelative:cmssample\\views\\blogposts\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39A5B738-0143-9FEB-D7CE-1605D1D88158}|CmsSample\\CmsSample.csproj|c:\\users\\dtedacar\\source\\repos\\project1\\cmssample\\views\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{39A5B738-0143-9FEB-D7CE-1605D1D88158}|CmsSample\\CmsSample.csproj|solutionrelative:cmssample\\views\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39A5B738-0143-9FEB-D7CE-1605D1D88158}|CmsSample\\CmsSample.csproj|c:\\users\\dtedacar\\source\\repos\\project1\\cmssample\\data\\oraclepagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39A5B738-0143-9FEB-D7CE-1605D1D88158}|CmsSample\\CmsSample.csproj|solutionrelative:cmssample\\data\\oraclepagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39A5B738-0143-9FEB-D7CE-1605D1D88158}|CmsSample\\CmsSample.csproj|c:\\users\\dtedacar\\source\\repos\\project1\\cmssample\\data\\oraclesliderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39A5B738-0143-9FEB-D7CE-1605D1D88158}|CmsSample\\CmsSample.csproj|solutionrelative:cmssample\\data\\oraclesliderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39A5B738-0143-9FEB-D7CE-1605D1D88158}|CmsSample\\CmsSample.csproj|c:\\users\\dtedacar\\source\\repos\\project1\\cmssample\\models\\slideritem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39A5B738-0143-9FEB-D7CE-1605D1D88158}|CmsSample\\CmsSample.csproj|solutionrelative:cmssample\\models\\slideritem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39A5B738-0143-9FEB-D7CE-1605D1D88158}|CmsSample\\CmsSample.csproj|c:\\users\\dtedacar\\source\\repos\\project1\\cmssample\\views\\slideritems\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{39A5B738-0143-9FEB-D7CE-1605D1D88158}|CmsSample\\CmsSample.csproj|solutionrelative:cmssample\\views\\slideritems\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39A5B738-0143-9FEB-D7CE-1605D1D88158}|CmsSample\\CmsSample.csproj|c:\\users\\dtedacar\\source\\repos\\project1\\cmssample\\views\\slideritems\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{39A5B738-0143-9FEB-D7CE-1605D1D88158}|CmsSample\\CmsSample.csproj|solutionrelative:cmssample\\views\\slideritems\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39A5B738-0143-9FEB-D7CE-1605D1D88158}|CmsSample\\CmsSample.csproj|c:\\users\\dtedacar\\source\\repos\\project1\\cmssample\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{39A5B738-0143-9FEB-D7CE-1605D1D88158}|CmsSample\\CmsSample.csproj|solutionrelative:cmssample\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39A5B738-0143-9FEB-D7CE-1605D1D88158}|CmsSample\\CmsSample.csproj|c:\\users\\dtedacar\\source\\repos\\project1\\cmssample\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{39A5B738-0143-9FEB-D7CE-1605D1D88158}|CmsSample\\CmsSample.csproj|solutionrelative:cmssample\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\DTEDACAR\\source\\repos\\project1\\CmsSample\\Views\\BlogPosts\\Edit.cshtml",
+              "RelativeDocumentMoniker": "CmsSample\\Views\\BlogPosts\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\DTEDACAR\\source\\repos\\project1\\CmsSample\\Views\\BlogPosts\\Edit.cshtml",
+              "RelativeToolTip": "CmsSample\\Views\\BlogPosts\\Edit.cshtml",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAABEAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-23T04:54:50.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\DTEDACAR\\source\\repos\\project1\\CmsSample\\Views\\BlogPosts\\Index.cshtml",
+              "RelativeDocumentMoniker": "CmsSample\\Views\\BlogPosts\\Index.cshtml",
+              "ToolTip": "C:\\Users\\DTEDACAR\\source\\repos\\project1\\CmsSample\\Views\\BlogPosts\\Index.cshtml",
+              "RelativeToolTip": "CmsSample\\Views\\BlogPosts\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-23T04:38:30.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\DTEDACAR\\source\\repos\\project1\\CmsSample\\Views\\BlogPosts\\Details.cshtml",
+              "RelativeDocumentMoniker": "CmsSample\\Views\\BlogPosts\\Details.cshtml",
+              "ToolTip": "C:\\Users\\DTEDACAR\\source\\repos\\project1\\CmsSample\\Views\\BlogPosts\\Details.cshtml",
+              "RelativeToolTip": "CmsSample\\Views\\BlogPosts\\Details.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-20T13:11:52.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BlogPostsController.cs",
+              "DocumentMoniker": "C:\\Users\\DTEDACAR\\source\\repos\\project1\\CmsSample\\Controllers\\BlogPostsController.cs",
+              "RelativeDocumentMoniker": "CmsSample\\Controllers\\BlogPostsController.cs",
+              "ToolTip": "C:\\Users\\DTEDACAR\\source\\repos\\project1\\CmsSample\\Controllers\\BlogPostsController.cs*",
+              "RelativeToolTip": "CmsSample\\Controllers\\BlogPostsController.cs*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T12:50:49.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\DTEDACAR\\source\\repos\\project1\\CmsSample\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "CmsSample\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\DTEDACAR\\source\\repos\\project1\\CmsSample\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "CmsSample\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAkwCwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T11:43:39.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "blog-theme.css",
+              "DocumentMoniker": "C:\\Users\\DTEDACAR\\source\\repos\\project1\\CmsSample\\wwwroot\\css\\blog-theme.css",
+              "RelativeDocumentMoniker": "CmsSample\\wwwroot\\css\\blog-theme.css",
+              "ToolTip": "C:\\Users\\DTEDACAR\\source\\repos\\project1\\CmsSample\\wwwroot\\css\\blog-theme.css",
+              "RelativeToolTip": "CmsSample\\wwwroot\\css\\blog-theme.css",
+              "ViewState": "AgIAALIAAAAAAAAAAAAmwMcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-20T11:02:18.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\DTEDACAR\\source\\repos\\project1\\CmsSample\\Program.cs",
+              "RelativeDocumentMoniker": "CmsSample\\Program.cs",
+              "ToolTip": "C:\\Users\\DTEDACAR\\source\\repos\\project1\\CmsSample\\Program.cs",
+              "RelativeToolTip": "CmsSample\\Program.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAkwDsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T05:17:17.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OracleBlogRepository.cs",
+              "DocumentMoniker": "C:\\Users\\DTEDACAR\\source\\repos\\project1\\CmsSample\\Data\\OracleBlogRepository.cs",
+              "RelativeDocumentMoniker": "CmsSample\\Data\\OracleBlogRepository.cs",
+              "ToolTip": "C:\\Users\\DTEDACAR\\source\\repos\\project1\\CmsSample\\Data\\OracleBlogRepository.cs",
+              "RelativeToolTip": "CmsSample\\Data\\OracleBlogRepository.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAkwDsAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T05:10:55.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SliderItemsController.cs",
+              "DocumentMoniker": "C:\\Users\\DTEDACAR\\source\\repos\\project1\\CmsSample\\Controllers\\SliderItemsController.cs",
+              "RelativeDocumentMoniker": "CmsSample\\Controllers\\SliderItemsController.cs",
+              "ToolTip": "C:\\Users\\DTEDACAR\\source\\repos\\project1\\CmsSample\\Controllers\\SliderItemsController.cs",
+              "RelativeToolTip": "CmsSample\\Controllers\\SliderItemsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T12:19:02.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\DTEDACAR\\source\\repos\\project1\\CmsSample\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CmsSample\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\DTEDACAR\\source\\repos\\project1\\CmsSample\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CmsSample\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAkwFwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-20T04:55:57.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\DTEDACAR\\source\\repos\\project1\\CmsSample\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "CmsSample\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\DTEDACAR\\source\\repos\\project1\\CmsSample\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "CmsSample\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAgwFYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-19T12:23:01.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Comment.cs",
+              "DocumentMoniker": "C:\\Users\\DTEDACAR\\source\\repos\\project1\\CmsSample\\Models\\Comment.cs",
+              "RelativeDocumentMoniker": "CmsSample\\Models\\Comment.cs",
+              "ToolTip": "C:\\Users\\DTEDACAR\\source\\repos\\project1\\CmsSample\\Models\\Comment.cs",
+              "RelativeToolTip": "CmsSample\\Models\\Comment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T10:37:25.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BlogPost.cs",
+              "DocumentMoniker": "C:\\Users\\DTEDACAR\\source\\repos\\project1\\CmsSample\\Models\\BlogPost.cs",
+              "RelativeDocumentMoniker": "CmsSample\\Models\\BlogPost.cs",
+              "ToolTip": "C:\\Users\\DTEDACAR\\source\\repos\\project1\\CmsSample\\Models\\BlogPost.cs",
+              "RelativeToolTip": "CmsSample\\Models\\BlogPost.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T05:04:49.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\DTEDACAR\\source\\repos\\project1\\CmsSample\\Views\\SliderItems\\Index.cshtml",
+              "RelativeDocumentMoniker": "CmsSample\\Views\\SliderItems\\Index.cshtml",
+              "ToolTip": "C:\\Users\\DTEDACAR\\source\\repos\\project1\\CmsSample\\Views\\SliderItems\\Index.cshtml",
+              "RelativeToolTip": "CmsSample\\Views\\SliderItems\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAgwCQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-19T12:35:29.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\DTEDACAR\\source\\repos\\project1\\CmsSample\\Views\\SliderItems\\Create.cshtml",
+              "RelativeDocumentMoniker": "CmsSample\\Views\\SliderItems\\Create.cshtml",
+              "ToolTip": "C:\\Users\\DTEDACAR\\source\\repos\\project1\\CmsSample\\Views\\SliderItems\\Create.cshtml",
+              "RelativeToolTip": "CmsSample\\Views\\SliderItems\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-19T12:22:19.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\DTEDACAR\\source\\repos\\project1\\CmsSample\\Views\\BlogPosts\\Delete.cshtml",
+              "RelativeDocumentMoniker": "CmsSample\\Views\\BlogPosts\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\DTEDACAR\\source\\repos\\project1\\CmsSample\\Views\\BlogPosts\\Delete.cshtml",
+              "RelativeToolTip": "CmsSample\\Views\\BlogPosts\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-20T05:25:33.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "OracleSliderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\DTEDACAR\\source\\repos\\project1\\CmsSample\\Data\\OracleSliderRepository.cs",
+              "RelativeDocumentMoniker": "CmsSample\\Data\\OracleSliderRepository.cs",
+              "ToolTip": "C:\\Users\\DTEDACAR\\source\\repos\\project1\\CmsSample\\Data\\OracleSliderRepository.cs",
+              "RelativeToolTip": "CmsSample\\Data\\OracleSliderRepository.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAkwFgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T12:18:04.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\DTEDACAR\\source\\repos\\project1\\CmsSample\\Views\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "CmsSample\\Views\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\DTEDACAR\\source\\repos\\project1\\CmsSample\\Views\\Pages\\Index.cshtml",
+              "RelativeToolTip": "CmsSample\\Views\\Pages\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-19T12:09:25.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SliderItem.cs",
+              "DocumentMoniker": "C:\\Users\\DTEDACAR\\source\\repos\\project1\\CmsSample\\Models\\SliderItem.cs",
+              "RelativeDocumentMoniker": "CmsSample\\Models\\SliderItem.cs",
+              "ToolTip": "C:\\Users\\DTEDACAR\\source\\repos\\project1\\CmsSample\\Models\\SliderItem.cs",
+              "RelativeToolTip": "CmsSample\\Models\\SliderItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T12:14:53.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "OraclePageRepository.cs",
+              "DocumentMoniker": "C:\\Users\\DTEDACAR\\source\\repos\\project1\\CmsSample\\Data\\OraclePageRepository.cs",
+              "RelativeDocumentMoniker": "CmsSample\\Data\\OraclePageRepository.cs",
+              "ToolTip": "C:\\Users\\DTEDACAR\\source\\repos\\project1\\CmsSample\\Data\\OraclePageRepository.cs",
+              "RelativeToolTip": "CmsSample\\Data\\OraclePageRepository.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAABQwCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T10:51:40.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\DTEDACAR\\source\\repos\\project1\\CmsSample\\appsettings.json",
+              "RelativeDocumentMoniker": "CmsSample\\appsettings.json",
+              "ToolTip": "C:\\Users\\DTEDACAR\\source\\repos\\project1\\CmsSample\\appsettings.json",
+              "RelativeToolTip": "CmsSample\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-19T10:42:56.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\DTEDACAR\\source\\repos\\project1\\CmsSample\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "CmsSample\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\DTEDACAR\\source\\repos\\project1\\CmsSample\\Properties\\launchSettings.json",
+              "RelativeToolTip": "CmsSample\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-19T10:41:25.617Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

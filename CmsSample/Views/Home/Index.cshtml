@@ -1,0 +1,98 @@
+﻿@model IEnumerable<CmsSample.Models.BlogPost>
+
+@{
+    /* En yeni > eski sırala; Model zaten sıralı geliyorsa ikinci kez
+       sıralamaz fakat null korumalı olsun. */
+    var ordered = (Model ?? Enumerable.Empty<CmsSample.Models.BlogPost>())
+                  .OrderByDescending(p => p.PublishedOn)
+                  .ToList();
+
+    var hero = ordered.FirstOrDefault();
+    var grid = ordered.Skip(1).Take(6);
+    var sliders = ViewBag.Sliders as List<CmsSample.Models.SliderItem> ?? new();
+}
+
+@if (hero is not null)
+{
+    <!-- HERO ----------------------------------------------------------->
+    <header class="hero mb-5" style="background-image:url('@hero.CoverImageUrl');">
+        <div class="caption">
+            <h3>@hero.Title</h3>
+            <a asp-controller="BlogPosts" asp-action="Details"
+               asp-route-id="@hero.Id"
+               class="btn-ghost btn-sm">
+                devamını oku →
+            </a>
+        </div>
+    </header>
+}
+
+@if (sliders.Any())
+{
+    <!-- SLIDER --------------------------------------------------------->
+    <section class="container mb-5">
+        <h2 class="section-title">PORTFOLIO</h2>
+
+        <div id="homeSlider" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                @for (int i = 0; i < sliders.Count; i++)
+                {
+                    var s = sliders[i];
+                    <div class="carousel-item @(i == 0 ? "active" : "")">
+                        <img src="@s.ImageUrl" class="d-block w-100" alt="@s.Caption">
+                    </div>
+                }
+            </div>
+
+            <button class="carousel-control-prev" type="button"
+                    data-bs-target="#homeSlider" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button"
+                    data-bs-target="#homeSlider" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+
+            <div class="progress-bar"></div>
+        </div>
+    </section>
+}
+
+<!-- PUNCHLINE ---------------------------------------------------------->
+<section class="punch">
+    <h2>Normal is <span class="brush">OVERRATED</span></h2>
+    <a asp-controller="BlogPosts" asp-action="Create"
+       class="btn-ghost mt-3">I'm ready →</a>
+</section>
+
+@if (grid.Any())
+{
+    <!-- LATEST POSTS --------------------------------------------------->
+    <section class="container">
+        <h2 class="section-title">Latest posts</h2>
+
+        <div class="post-grid">
+            @foreach (var p in grid)
+            {
+                <div class="card-post">
+                    <a asp-controller="BlogPosts" asp-action="Details"
+                       asp-route-id="@p.Id">
+                        <img src="@p.CoverImageUrl" alt="@p.Title">
+                        <h5>@p.Title</h5>
+                    </a>
+                </div>
+            }
+        </div>
+    </section>
+}
+
+@section Scripts {
+    <script>
+        const bar=document.querySelector('.progress-bar');
+        const c  =document.getElementById('homeSlider');
+        c?.addEventListener('slide.bs.carousel',e=>{
+            const tot=c.querySelectorAll('.carousel-item').length;
+            bar.style.transform=`scaleX(${(e.to+1)/tot})`;
+        });
+    </script>
+}

@@ -1,0 +1,25 @@
+﻿@model IEnumerable<CmsSample.Models.StaticPage>
+
+<h2>Pages</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Slug</th>
+            <th>Title</th>
+            <th>Last Updated</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var p in Model)
+        {
+            <tr>
+                <td>@p.Id</td>
+                <td>@p.Slug</td>
+                <td>@p.Title</td>
+                <td>@p.LastUpdated</td>
+            </tr>
+        }
+    </tbody>
+</table>

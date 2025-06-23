@@ -1,0 +1,38 @@
+﻿@model CmsSample.Models.SliderItem
+@{
+    ViewData["Title"] = "Slider Düzenle";
+}
+
+<h2>Slider Düzenle</h2>
+
+<form asp-action="Edit" method="post" enctype="multipart/form-data">
+    <input asp-for="Id" type="hidden" />
+
+    <div class="mb-3">
+        <label asp-for="Caption" class="form-label"></label>
+        <input asp-for="Caption" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Mevcut Resim</label><br />
+        <img src="@Model.ImageUrl" style="max-width:150px;" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Yeni Resim (değiştirmek isterseniz)</label>
+        <input type="file" name="file" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="TargetUrl" class="form-label"></label>
+        <input asp-for="TargetUrl" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="DisplayOrder" class="form-label"></label>
+        <input asp-for="DisplayOrder" type="number" class="form-control" />
+    </div>
+
+    <button class="btn btn-primary">Kaydet</button>
+    <a asp-action="Index" class="btn btn-secondary">İptal</a>
+</form>

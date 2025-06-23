@@ -1,0 +1,231 @@
+﻿/* ███  RENK & FONT DEĞİŞKENLERİ  ███ */
+:root {
+    --accent: #b21515; /* canlı kırmızı */
+    --accent-d: #8f1313; /* koyu tonu */
+    --bg-cream: #f6f0e4; /* tam bej */
+    --text: #221e1c;
+    --font-display: 'Playfair Display',serif;
+    --font-body: 'Inter',sans-serif;
+    --font-brush: 'Permanent Marker',cursive;
+    --radius: .5rem;
+    --shadow: 0 6px 18px rgba(0,0,0,.08);
+}
+
+body {
+    margin: 0;
+    font-family: var(--font-body);
+    color: var(--text);
+    background: var(--bg-cream);
+    line-height: 1.65;
+}
+
+/* ███  GENEL TİPOGRAFİ  ███ */
+h1, h2, h3, h4, h5 {
+    font-family: var(--font-display);
+    color: var(--accent);
+    letter-spacing: .4px;
+    margin-top: 0;
+}
+
+a {
+    color: var(--accent);
+    text-decoration: none
+}
+
+    a:hover {
+        text-decoration: underline
+    }
+
+/* ███  BUTTON & BADGE  ███ */
+.btn-ghost {
+    border: 2px solid var(--accent);
+    color: var(--accent);
+    padding: .5rem 1.1rem;
+    border-radius: 50px;
+    font-weight: 600;
+    transition: .2s;
+}
+
+    .btn-ghost:hover {
+        background: var(--accent);
+        color: #fff;
+        text-decoration: none;
+        box-shadow: 0 3px 8px rgba(0,0,0,.15);
+    }
+
+/* ███  HERO  ███ */
+.hero {
+    position: relative;
+    height: 52vh;
+    max-height: 520px;
+    overflow: hidden;
+    background: center/cover no-repeat var(--accent); /* fall-back rengi */
+    filter: grayscale(.12) brightness(.92);
+}
+
+    .hero::after { /* yumuşak degrade overlay   */
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(to bottom, rgba(0,0,0,.00) 30%, rgba(0,0,0,.35));
+    }
+
+.caption {
+    position: absolute;
+    bottom: 2.2rem;
+    left: 2.2rem;
+    z-index: 2;
+    background: rgba(255,255,255,.15);
+    backdrop-filter: blur(4px);
+    color: #fff;
+    padding: 1.1rem 1.6rem;
+    border-radius: var(--radius);
+    max-width: 420px;
+}
+
+    .caption h3 {
+        font-size: 1.55rem;
+        margin: 0 0 .5rem;
+    }
+
+/* ███  SLIDER  ███ */
+#homeSlider .carousel-item img {
+    aspect-ratio: 4/3;
+    object-fit: cover;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+}
+
+.progress-bar {
+    height: 4px;
+    background: var(--accent);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: .45s;
+    border-radius: 2px;
+    margin-top: .35rem;
+}
+
+/* ███  PUNCHLINE  ███ */
+.punch {
+    padding: 4.5rem 0;
+    text-align: center;
+}
+
+    .punch h2 {
+        font-size: 2.3rem;
+        margin-bottom: 1.2rem
+    }
+
+    .punch .brush {
+        font-family: var(--font-brush);
+        font-size: 3rem;
+        color: var(--accent);
+        text-shadow: 1px 1px 0 var(--bg-cream), 2px 2px 0 var(--accent-d);
+    }
+
+/* ███  POST CARD / GRID  ███ */
+.post-grid {
+    display: grid;
+    gap: 1.7rem;
+    margin: 3rem 0;
+}
+
+@media(min-width:576px) {
+    .post-grid {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media(min-width:992px) {
+    .post-grid {
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+.card-post {
+    background: #fff;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    overflow: hidden;
+    transition: .25s;
+}
+
+    .card-post:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 8px 24px rgba(0,0,0,.12);
+    }
+
+    .card-post img {
+        width: 100%;
+        aspect-ratio: 4/3;
+        object-fit: cover;
+    }
+
+    .card-post h5 {
+        margin: .8rem 1rem 1.1rem;
+        font-size: 1.15rem;
+    }
+
+/* ███  FOOTER  ███ */
+footer.main {
+    background: #111;
+    color: #ccc;
+    padding: 3rem 0;
+}
+
+    footer.main h3 {
+        font-family: var(--font-display);
+        color: #fff;
+        margin-bottom: .9rem;
+    }
+
+    footer.main a:hover {
+        color: var(--accent);
+    }
+
+/* ███  MOBILE TWEAKS  ███ */
+@media(max-width:768px) {
+    .hero {
+        height: 44vh;
+    }
+    /* hero başlık sol kenardan çok uzaksa: */
+    .caption {
+        max-width: 360px;
+        padding: 1rem 1.4rem
+    }
+
+    /* aşırı büyük başlıkları küçült: */
+    h1, h2.section-title {
+        font-size: 1.85rem
+    }
+
+    /* punchline fırça kelime 3rem → 2.4rem */
+    .punch .brush {
+        font-size: 2.4rem
+    }
+
+    /* container genişliğini Bootstrap’in xl sınırına sabitlemek isterseniz */
+    .container {
+        max-width: 1140px;
+    }
+
+    .caption {
+        left: 1rem;
+        bottom: 1rem;
+        max-width: 320px;
+        padding: .9rem 1.2rem;
+    }
+
+        .caption h3 {
+            font-size: 1.25rem
+        }
+
+    .punch h2 {
+        font-size: 1.8rem
+    }
+
+    .punch .brush {
+        font-size: 2.4rem
+    }
+}
